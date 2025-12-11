@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+.bg{
+    background: url(https://tse3.mm.bing.net/th?id=OIP._4SEMZ7KOgl6_1vQPaALRgHaHa&pid=Api&P=0&h=180) no-repeat center center/cover;
+    position: absolute;
+    top: 0 ;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+    filter: blur(0px);
+
+}
+.loading-text{
+    color: #fff;
+    font-size: 45px;
+}
